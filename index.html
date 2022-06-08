@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomer Burger's</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <h1>Tomer Burger's</h1>
+
+    <div id="container">
+
+        <div id="topping">
+            <div class="top">
+                
+                <div class="minus">
+                    <button onclick="remove('beef', 'counter1')">-</button>
+                </div>
+                <div class="product-image">
+                   <span class="image">
+                    <img src="./images/burger.jpg" alt="burger image">
+                    <span id="counter1">0</span>
+                    </span>
+    
+                </div>
+                <div class="plus">
+                    <button onclick="add('beef', 'counter1')">+</button>
+                </div>
+            </div>
+            <div class="top">
+                <div class="minus">
+                    <button onclick="remove('cheese', 'counter2')">-</button>
+                </div>
+                <div class="product-image">
+                    <span class="image">
+                    <img src="./images/cheese.png" alt="burger image">
+                        <span id="counter2">0</span>
+                    </span>
+                </div>
+                <div class="plus">
+                    <button onclick="add('cheese', 'counter2')">+</button>
+                </div>
+            </div>
+            <div class="top">
+                <div class="minus">
+                    <button onclick="remove('cucumber', 'counter3')">-</button>
+                </div>
+                <div class="product-image">
+                    <span class="image">
+                        <img src="./images/cucumber.jpg" alt="burger image">
+                        <span id="counter3">0</span>
+                    </span>
+                </div>
+                <div class="plus">
+                    <button onclick="add('cucumber', 'counter3')">+</button>
+                </div>
+            </div>
+            <div class="top">
+                <div class="minus">
+                <button onclick="remove('lettuce', 'counter4')">-</button>
+                </div>
+                <div class="product-image">
+                    <span class="image">
+                        <img src="./images/lettuce.png" alt="burger image">
+                        <span id="counter4">0</span>
+                    </span>
+                </div>
+                <div class="plus">
+                    <button onclick="add('lettuce', 'counter4')">+</button>
+                </div>
+            </div>
+            <div class="top">
+                <div class="minus">
+                    <button onclick="remove('onion', 'counter5')">-</button>
+                </div>
+                <div class="product-image">
+                    <span class="image">
+                        <img src="./images/onions.jpg" alt="burger image">
+                        <span id="counter5">0</span>
+                    </span>
+                </div>
+                <div class="plus">
+                    <button onclick="add('onion', 'counter5')">+</button>
+                </div>
+            </div>
+            <div class="top">
+                <div class="minus">
+                    <button onclick="remove('tomato', 'counter6')">-</button>
+                </div>
+                <div class="product-image">
+                    <span class="image">
+                        <img src="./images/tomatoes.jpg" alt="burger image">
+                        <span id="counter6">0</span>
+                    </span>
+                </div>
+                <div class="plus">
+                    <button onclick="add('tomato', 'counter6')">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="price-box">
+           price: <span id = "price">7</span>$
+            </div>
+
+        <div id="burger">
+            <div id="top-bun"></div>
+            <div id="top-inside">
+             
+            </div>
+            <div id="bottom-bun"></div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
